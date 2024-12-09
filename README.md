@@ -1,5 +1,5 @@
 # Labelme_rebuild
-Reconstrucción de los patches extraidos con Labelme
+Reconstrucción de los patches extraidos con Labelme (en https://cloud.iac.es/index.php/s/7RDFoHcd25L6n28)
 
 ## Entorno
 El entorno de python es el mismo de https://github.com/cwestend/Patomat_Contrastive (aunque no hace falta pytorch).
@@ -31,7 +31,7 @@ Out[]: (5389, 1200, 3)
 ```
 
 Además nos da las coordenadas iniciales del array en coordenadas de la **imagen original** y son **x_min** y **y_min**
-(la otra esquina es **x_max**, **y_max**)). 
+(la otra esquina es **x_max**, **y_max**). 
 Como tenemos la miniatura que es un factor cuatro más pequeña, ya tenemos todo.
 Leemos la miniatura:
 
