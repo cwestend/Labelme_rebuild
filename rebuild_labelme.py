@@ -19,8 +19,8 @@ import numpy as np
 from PIL import Image
 
 # Path to patch files of an image extracted from a labelme json file on the original tiff data
-#path = "./992_22_ca_202203081937_labelme/"
-path = "./GWIN2000713_982_rebuild/GWIN2000713_982_labelme/"
+path = "./992_22_ca_202203081937_labelme/"
+#path = "./GWIN2000713_982_rebuild/GWIN2000713_982_labelme/"
 
 # Patch size (sizexsize patches)
 patch_size = 300
@@ -109,4 +109,4 @@ rebuild_ima = blank.astype(int)
 #new_width = original_width * 4
 # Opencv uses traditional x and y dimensions (not like python arrays!)
 #new_dimensions = (new_width, new_height)
-#nim992_r = cv2.resize(im992, new_dimensions, interpolation=cv2.INTER_AREA)
+#nim992 = cv2.resize(im992, new_dimensions, interpolation=cv2.INTER_AREA)
