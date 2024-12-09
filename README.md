@@ -30,7 +30,6 @@ El programa lee cada uno de los ficheros y los encaja en un array. El array es:
 Además nos da las coordenadas iniciales del array en coordenadas de la **imagen original** y son x_min y y_min). 
 Como tenemos la miniatura que es un factor cuatro más pequeña, ya tenemos todo.
 
-prueba
 
 
 
