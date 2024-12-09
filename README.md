@@ -30,8 +30,10 @@ Out[]: (5389, 1200, 3)
 
 ```
 
-Además nos da las coordenadas iniciales del array en coordenadas de la **imagen original** y son x_min y y_min). 
+Además nos da las coordenadas iniciales del array en coordenadas de la **imagen original** y son **x_min** y **y_min**
+(la otra esquina es **x_max**, **y_max**)). 
 Como tenemos la miniatura que es un factor cuatro más pequeña, ya tenemos todo.
+Leemos la miniatura:
 
 ```
 # image992 = np.asarray(Image.open("./992_22_ca_202203081937_pred_grid_web.jpg"))
