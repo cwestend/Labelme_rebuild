@@ -3,6 +3,12 @@ Reconstrucción de los patches extraidos con Labelme (en https://cloud.iac.es/in
 
 ## Entorno
 El entorno de python es el mismo de https://github.com/cwestend/Patomat_Contrastive (aunque no hace falta pytorch).
+Posiblemente haga falta OpenCV:
+
+```
+python3 -m pip install opencv-python==4.6.0.66
+
+```
 
 ## Uso
 El programa va leyendo los ficheros que tienen los datos de las posiciones en la imagen original. Reconstruye un array
